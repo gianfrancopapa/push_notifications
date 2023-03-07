@@ -1,0 +1,17 @@
+name: notification_repository
+description: A repository for the Notifications domain.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  firebase_messaging: ^14.2.1
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter

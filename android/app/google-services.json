@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1033168644939",
+    "project_id": "push-notifications-be959",
+    "storage_bucket": "push-notifications-be959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033168644939:android:dcb7079a82b16f43a296ce",
+        "android_client_info": {
+          "package_name": "com.somnio.push_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033168644939-atcsujjpss2dtfrovj6be8kel3fdmg92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6i7aukQTRUDKWyrhNp25vPeKaA-I-dqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033168644939-atcsujjpss2dtfrovj6be8kel3fdmg92.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1033168644939-82ar91ajjj139pkj5lvakn1s2950jkjb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pushNotifications"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

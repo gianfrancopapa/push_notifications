@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
+    public_member_api_docs: true
+    sort_pub_dependencies: true
+    sort_constructors_first: true
