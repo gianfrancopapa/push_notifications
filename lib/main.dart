@@ -14,8 +14,7 @@ Future<void> main() async {
   );
   final navigatorKey = GlobalKey<NavigatorState>();
   final navigatorStateClient = NavigatorStateClient(navigatorKey: navigatorKey);
-  const vapidKey =
-      'BJiOPAhStJ5Ij1zWdQ8lSCgY8WrIefQLl2d2FL4vMcjX86yxzas8IEyYLVWH_Pwt2GktK3dZCd4X0L5s61O-Lww';
+  const vapidKey = String.fromEnvironment('VAPID_KEY');
   final notificationRepository = NotificationRepository(
     vapidKey: vapidKey,
   );

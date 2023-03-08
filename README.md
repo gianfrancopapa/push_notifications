@@ -1,17 +1,14 @@
 # push_notifications
 
-A new Flutter project.
+Flutter project that uses Firebase push notifications for mobile and web.
 
-## Getting Started
+## Run the project
 
-This project is a starting point for a Flutter application.
+```shell
+flutter run --dart-define VAPID_KEY=YOUR_VAPID_KEY
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# push_notifications
+```shell
+# Example
+flutter run --dart-define VAPID_KEY=BJiOPAhStJ5Ij1zWdQ8lSCgY8WrIefQLl2d2FL4vMcjX86yxzas8IEyYLVWH_Pwt2GktK3dZCd4X0L5s61O-Lww
+```
