@@ -1,0 +1,26 @@
+name: push_notifications
+description: A demo for push notifications with FCM.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: 3.7.1
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  firebase_core: ^2.4.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2  
+  notification_repository:
+    path: packages/notification_repository
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
